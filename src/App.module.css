@@ -1,0 +1,13 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+/* phone */
+.calculator{
+  background-color: black;
+  border:10px solid black;
+  border-width: 7px 10px;
+  width:max-content;
+  padding: 10px;
+  border-radius: 7px;
+}
