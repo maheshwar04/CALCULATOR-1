@@ -2,7 +2,6 @@ body{
   display: flex;
   justify-content: center;
 }
-/* phone */
 .calculator{
   background-color: black;
   border:10px solid black;
