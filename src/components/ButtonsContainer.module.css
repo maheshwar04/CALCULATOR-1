@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  max-width: 250px;
+  width: 250px;
   margin: 0 auto;
 }
 
@@ -17,6 +17,7 @@
   height: 50px;
   border-radius: 50px;
   flex: 0 1 auto;
+  cursor: pointer;
 }
 .equalButton{
    background-color:rgb(255, 77, 0);

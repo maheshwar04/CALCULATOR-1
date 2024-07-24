@@ -1,16 +1,16 @@
 import React from "react";
 import styles from "./ButtonsContainer.module.css";
 
-const ButtonsContainer = () => {
+const ButtonsContainer = ({ handleButtonClick }) => {
   let buttons = [
     "C",
     "%",
     "&#x232B;",
-    "÷",
+    "/",
     "7",
     "8",
     "9",
-    "X",
+    "*",
     "4",
     "5",
     "6",
@@ -35,6 +35,7 @@ const ButtonsContainer = () => {
             ${diffIndices.includes(index) ? styles.diffButton : ""}
             ${e === "=" ? styles.equalButton : ""} `}
           dangerouslySetInnerHTML={{ __html: e }}
+          onClick={() => handleButtonClick(e)}
         />
       ))}
     </div>
